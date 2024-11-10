@@ -1,0 +1,54 @@
+.flex-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+img
+{
+    width: 96px;
+    height: 96px;
+    border: 4px solid black;
+}
+h1
+{
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+p
+{
+    text-align: center;
+    margin-top: 12px;
+    font-size: x-large;
+}
+a
+{
+    text-decoration: none;
+}
+.icon-container
+{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+    margin-left: -15px;
+    margin-top: 9px;
+    font-size: 35px;
+    font-family: emoji;
+}
+.icon:hover
+{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+.button-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
