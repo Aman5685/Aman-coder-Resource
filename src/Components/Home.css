@@ -62,12 +62,14 @@ a
     border-radius: 100%;
 }
 .Aptitude
-{
-    text-align: center;   
+{   
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
+}
+span:hover
+{color: #fff;
+  animation-duration: 5s;
 }
 .button-container button{    
     display: flex;
@@ -75,7 +77,7 @@ a
     align-items: center;
     grid-gap: 15px;
     padding: 10px;
-    border: 2px solid #fff;
+    border: 2px solid ;
     transition: all 0.5s ease;
     border-radius: 50px;
     justify-content: space-between;
@@ -88,8 +90,7 @@ a
 {
     font-size: 30px;
     font-weight: bold;
-    color: #fff;
 }
-.menus-icons a:hover{
+.menus-icons:hover{
     color: #fff;
 }

@@ -1,7 +1,7 @@
 //import React from 'react';
 import "./Home.css"
 import pic from"../../public/mypic.jpg";
-import aptitude from"../../public/first logo img.jpg"
+import aptitude from"../../public/first logo img.png"
 import { FaXTwitter } from "react-icons/fa6";
 import { CiInstagram } from "react-icons/ci";
 import { CiYoutube } from "react-icons/ci";
@@ -30,10 +30,10 @@ function Home() {
               <div>
                 <img className="button-img" src={aptitude} alt="" />
               </div>
-              <span className="Aptitude">Campus to Aptitude</span>
+              <a href="https://whimsical.com/1-aptitude-SZhta1dC1nX78HsRQU6L26" target="blank">
+              <span className="Aptitude">Campus to Aptitude</span></a>
               <div className="menus-icons">
-             <a href="" target="blank">
-              <CiMenuKebab /> </a>
+              <CiMenuKebab />
               </div>
             </button>
         </div>
