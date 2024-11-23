@@ -2,7 +2,8 @@
 import "./Home.css"
 import pic from"../../public/mypic.jpg";
 import Java from"../../public/Java Full Stack.png";
-import aptitude from"../../public/first logo img.png"
+import aptitude from"../../public/first logo img.png";
+import DSAtodevelopment from "../../public/DSA to Development.png";
 import { FaXTwitter } from "react-icons/fa6";
 import { CiInstagram } from "react-icons/ci";
 import { CiYoutube } from "react-icons/ci";
@@ -26,6 +27,7 @@ function Home() {
           <i className="icon"><IoMailOpenOutline /></i>
           <i className="icon"><CiInstagram /></i>
         </div>
+        {/*First tree*/}
         <div className="button-container">
             <button>
               <div>
@@ -38,6 +40,7 @@ function Home() {
               </div>
             </button>
         </div>
+        {/*Second Tree*/}
         <div className="button-container">
             <button>
               <div>
@@ -49,7 +52,21 @@ function Home() {
               <CiMenuKebab />
               </div>
             </button>
+        {/*Third Tree*/}
         </div>
+        <div className="button-container">
+        <button>
+              <div>
+                <img className="button-img" src={DSAtodevelopment} alt="" />
+              </div>
+              <a href="https://whimsical.com/dsa-to-development-G1uamohhiFBeHNLV6RLzk9" target="blank">
+              <span className="Aptitude">DSA to Development</span></a>
+              <div className="menus-icons">
+              <CiMenuKebab />
+              </div>
+            </button>
+        </div>
+            
      </div>
     </>
   )
