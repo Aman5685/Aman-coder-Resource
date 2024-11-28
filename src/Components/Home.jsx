@@ -1,9 +1,16 @@
 //import React from 'react';
 import "./Home.css"
-import pic from"../../public/mypic.jpg";
+import pcs from "../../public/my-pic.avif";
 import Java from"../../public/Java Full Stack.png";
 import aptitude from"../../public/first logo img.png";
 import DSAtodevelopment from "../../public/DSA to Development.png";
+import resumebuilding from "../../public/Resume Building.png";
+import chatgpt from "../../public/Chatgtp_promt.png";
+import jobportal from "../../public/Job Portal.png";
+import tcscode from "../../public/TCS code vita.png";
+import toughinterview from "../../public/64 tough.png";
+import companywise from "../../public/Company wise CGPA.png";
+import tcscodeprep from "../../public/TCSCODEVITA-Preapation.png";
 import { FaXTwitter } from "react-icons/fa6";
 import { CiInstagram } from "react-icons/ci";
 import { CiYoutube } from "react-icons/ci";
@@ -13,9 +20,9 @@ import { CiMenuKebab } from "react-icons/ci";
 function Home() {
   return (
     <>
-    <div>
+    <div className="Container">
         <div className="main-container">
-          <img src={pic} alt="mypic" />
+          <img src={pcs} alt="mypic" />
         </div>
         <div>
           <h1>O(1) Aman Coder</h1>
@@ -66,7 +73,97 @@ function Home() {
               </div>
             </button>
         </div>
-            
+        {/*Fourth Tree*/}
+        <div className="button-container">
+        <button>
+              <div>
+                <img className="button-img" src={resumebuilding} alt="" />
+              </div>
+              <a href="https://resume-guide-rhl9hco.gamma.site/" target="blank">
+              <span className="Aptitude">Resume Building</span></a>
+              <div className="menus-icons">
+              <CiMenuKebab />
+              </div>
+            </button>
+        </div>
+        {/*Five Tree*/}
+        <div className="button-container">
+        <button>
+              <div>
+                <img className="button-img" src={chatgpt} alt="" />
+              </div>
+              <a href="https://docs.google.com/document/d/1JGvzPKHtlMDj_8Cw8gXNEEOJxpiRsKTQLfybh8psBDI/edit?usp=sharing" target="blank">
+              <span className="Aptitude">CHAT GPT PROMPT</span></a>
+              <div className="menus-icons">
+              <CiMenuKebab />
+              </div>
+            </button>
+        </div>
+        {/*Six Tree*/}
+        <div className="button-container">
+        <button>
+              <div>
+                <img className="button-img" src={jobportal} alt="" />
+              </div>
+              <a href="https://docs.google.com/spreadsheets/d/1cQEMITyujttj0XVQKHt7YJJwHL2y5_QY1Yb2SCrdvk0/htmlview#gid=0" target="blank">
+              <span className="Aptitude">JOB PORTAL</span></a>
+              <div className="menus-icons">
+              <CiMenuKebab />
+              </div>
+            </button>
+        </div>
+        {/*Seven Tree*/}
+        <div className="button-container">
+        <button>
+              <div>
+                <img className="button-img" src={tcscode} alt="" />
+              </div>
+              <a href="https://docs.google.com/document/d/1UP81SqV4UtE-PGXN1QBhc_KyORJaprNnj1Jeo-NJ9i0/edit?usp=sharing" target="blank">
+              <span className="Aptitude">TCS Code Vita Chatgpt Prompt</span></a>
+              <div className="menus-icons">
+              <CiMenuKebab />
+              </div>
+            </button>
+        </div>
+        {/*Eight Tree*/}
+        <div className="button-container">
+        <button>
+              <div>
+                <img className="button-img" src={toughinterview} alt="" />
+              </div>
+              <a href="https://drive.google.com/file/d/1Nwy4CkV7bMpb04rWMgYN_H-eNDcHYV9v/view" target="blank">
+              <span className="Aptitude">64 Toughest Interview Questions.pdf</span></a>
+              <div className="menus-icons">
+              <CiMenuKebab />
+              </div>
+            </button>
+        </div>
+        {/*Nine Tree*/}
+        <div className="button-container">
+        <button>
+              <div>
+                <img className="button-img" src={companywise} alt="" />
+              </div>
+              <a href="https://docs.google.com/spreadsheets/d/1qi1ZuZFD0oQVWT4CnxbX9pfqgddhKYWZl9tBtHjKJKo/edit?gid=0#gid=0" target="blank">
+              <span className="Aptitude">Company Wise CGPA</span></a>
+              <div className="menus-icons">
+              <CiMenuKebab />
+              </div>
+            </button>
+        </div>
+        {/*Tenth Tree*/}
+        <div className="button-container">
+        <button>
+              <div>
+                <img className="button-img" src={tcscodeprep} alt="" />
+              </div>
+              <a href="https://docs.google.com/document/d/1R6Vylx6FmVXEdnwsf1dtJ-6Q1faEOh53TzfZETUJocw/edit?usp=sharing" target="blank">
+              <span className="Aptitude">TCS Code Vita Preparation</span></a>
+              <div className="menus-icons">
+              <CiMenuKebab />
+              </div>
+            </button>
+        </div>
      </div>
     </>
   )
