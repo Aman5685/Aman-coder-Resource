@@ -90,6 +90,7 @@ span:hover
     border-radius: 50px;
     justify-content: space-around;
     max-width: -webkit-fill-available;
+    overflow: hidden;
 }
 .button-container button:hover
 {
@@ -102,4 +103,27 @@ span:hover
 }
 .menus-icons:hover{
     color: #fff;
+}
+/*Mobile Responsive*/
+@media only screen and (max-width: 600px)
+{
+   .button-container button
+   {
+    width: 92%;
+    overflow: hidden;
+   }
+  .button-img
+  {
+    position: relative;
+    left: 0px; 
+  }
+  .button-container button:hover
+{
+    transform: scale(1.03);
+}
+.Aptitude:hover
+{
+    color: #fff;
+   animation-duration: 1s;
+}
 }

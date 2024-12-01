@@ -163,7 +163,7 @@ function Home() {
               <CiMenuKebab />
               </div>
             </button>
-        </div>
+        </div>  
      </div>
     </>
   )
