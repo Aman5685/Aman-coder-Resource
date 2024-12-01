@@ -22,7 +22,7 @@ function Home() {
     <>
     <div className="Container">
         <div className="main-container">
-          <img src={pcs} alt="mypic" />
+          <img  src={pcs} alt="mypic" />
         </div>
         <div>
           <h1>O(1) Aman Coder</h1>
