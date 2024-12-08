@@ -13,6 +13,7 @@ import companywise from "../../public/Company wise CGPA.png";
 import tcscodeprep from "../../public/TCSCODEVITA-Preapation.png";
 import fresher from "../../public/Fresherjobs.png";
 import HRInterview from "../../public/HR-interview Question list.png";
+import leetcode from "../../public/Leetcode.png"
 import { FaXTwitter } from "react-icons/fa6";
 import { CiInstagram } from "react-icons/ci";
 import { CiYoutube } from "react-icons/ci";
@@ -187,6 +188,19 @@ function Home() {
               </div>
               <a href="https://drive.google.com/file/d/1CJM9s5DCrrWnf0WmOwMH9RuuevMaT3x0/view?usp=sharing" target="blank">
               <span className="Aptitude">HR Interview Questions</span></a>
+              <div className="menus-icons">
+              <CiMenuKebab />
+              </div>
+            </button>
+        </div>
+        {/* Leetcode Blind Questions */}
+        <div className="button-container">
+        <button>
+              <div>
+                <img className="button-img" src={leetcode} alt="" />
+              </div>
+              <a href="https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions" target="blank">
+              <span className="Aptitude">Blind 75 LeetCode Questions</span></a>
               <div className="menus-icons">
               <CiMenuKebab />
               </div>
