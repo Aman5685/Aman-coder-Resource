@@ -12,6 +12,7 @@ import toughinterview from "../../public/64 tough.png";
 import companywise from "../../public/Company wise CGPA.png";
 import tcscodeprep from "../../public/TCSCODEVITA-Preapation.png";
 import fresher from "../../public/Fresherjobs.png";
+import HRInterview from "../../public/HR-interview Question list.png";
 import { FaXTwitter } from "react-icons/fa6";
 import { CiInstagram } from "react-icons/ci";
 import { CiYoutube } from "react-icons/ci";
@@ -173,6 +174,19 @@ function Home() {
               </div>
               <a href="https://docs.google.com/document/d/1QkXzs513X766yvY-8NIpgpDwZXYDUL5NdrYOjMFPBCo/edit?tab=t.0" target="blank">
               <span className="Aptitude">Fresher Jobs</span></a>
+              <div className="menus-icons">
+              <CiMenuKebab />
+              </div>
+            </button>
+        </div>
+        {/* Hr Interview */}
+        <div className="button-container">
+        <button>
+              <div>
+                <img className="button-img" src={HRInterview} alt="" />
+              </div>
+              <a href="https://drive.google.com/file/d/1CJM9s5DCrrWnf0WmOwMH9RuuevMaT3x0/view?usp=sharing" target="blank">
+              <span className="Aptitude">HR Interview Questions</span></a>
               <div className="menus-icons">
               <CiMenuKebab />
               </div>
